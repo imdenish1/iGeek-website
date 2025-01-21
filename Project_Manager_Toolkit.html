@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Manager Toolkit</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .hero {
+            text-align: center;
+            padding: 2rem;
+            background-color: #ddd;
+        }
+        .hero h1 {
+            margin-bottom: 1rem;
+        }
+        .section {
+            padding: 2rem;
+            margin: 1rem auto;
+            max-width: 900px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Project Manager Toolkit</h1>
+        <p>Your go-to platform for project management resources and best practices.</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#resources">Resources</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="hero">
+        <h1>Welcome to the Project Manager Toolkit</h1>
+        <p>Find templates, tools, and expert advice for managing construction projects effectively.</p>
+        <button onclick="alert('Coming soon!')">Explore Now</button>
+    </div>
+
+    <div id="resources" class="section">
+        <h2>Resources</h2>
+        <p>Browse through our library of project management tools, templates, and guides:</p>
+        <ul>
+            <li>Construction Project Timeline Template</li>
+            <li>Risk Management Checklist</li>
+            <li>Budgeting and Cost Analysis Tools</li>
+        </ul>
+        <button onclick="alert('Feature in development')">Search Resources</button>
+    </div>
+
+    <div id="about" class="section">
+        <h2>About Us</h2>
+        <p>We are dedicated to helping project managers succeed by providing top-tier resources and a user-friendly platform.</p>
+    </div>
+
+    <div id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>Have questions or suggestions? Reach out to us:</p>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Project Manager Toolkit. All rights reserved.</p>
+    </footer>
+</body>
+</html>
